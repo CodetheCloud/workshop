@@ -5,8 +5,9 @@ public class AccountHandler {
         Account acc = new account(name='Nakshathra');
         try{
             Insert acc;
+
         }catch(Exception e)
-            
+            system.debug('adding ');
         {
             return null;
         }
